@@ -32,3 +32,13 @@
     pointer-events: none;
     color: #aaa;
 }
+/* active */
+.c-active {
+    border-bottom: 1px solid #F22929  ;
+    /* color: #F22929; */
+}
+.nav-link:hover {
+    background-color: rgb(247, 91, 91);
+    color: #FFF !important;
+    border-radius: 3px;
+}

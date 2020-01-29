@@ -1,29 +1,4 @@
 <app-nav-bar></app-nav-bar>
 <div class="container">
-  <div class="row">
-    <div class="col-md-8">
-      <!-- slider -->
-      <app-slider></app-slider>
-      <div class="row">
-        <!-- main Articles -->
-        <app-body-articles class="mt-2"></app-body-articles>
-      </div>
-    </div>
-    <div class="com-md-4">
-      <!-- Side Article -->
-      <app-side-news></app-side-news>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col">
-      <!-- footer Articles -->
-      <app-footer-articles></app-footer-articles>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col">
-      <!-- footer -->
-      <app-footer></app-footer>
-    </div>
-  </div>
+  <router-outlet></router-outlet>
 </div>
